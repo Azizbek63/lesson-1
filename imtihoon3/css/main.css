@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.but{
+    padding: 20px 0px;
+    display: flex;
+justify-content: space-between;
+
+}
+.but div ul a{
+color: #9597a5c0;
+text-decoration: none;
+
+}
+.but div ul{
+    list-style: none;
+display: flex;
+gap: 30px;
+}
+.but div button{
+    background-color: #33D35E ;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+}
+.header div h1{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    margin-top: 250px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.header div p{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+
+    margin-bottom: 30px;
+}
+.header div button{
+    background-color: #33D35E ;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+}
+.section1{
+    margin-top: -100px;
+}
+.way h1{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    font-size:35px;
+    margin-bottom: 30px;
+}
+.way p{
+width: 500px;
+margin-bottom: 50px;
+}
+.block .box h4{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 200; 
+    font-size: 20px;  
+    margin-bottom: 20px;
+}
+.block .box p{
+    width: 200px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    margin-bottom: 150px;
+
+}
+.block .box img{
+margin-bottom: 20px;
+
+}
+.box{
+    /* border: 1px solid black; */
+}
+.block{
+    display: flex;
+gap: 50px;
+}
+.waw h1{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    font-size:35px;
+    margin-bottom: 30px;
+}
+.cards .card img{
+margin-bottom: 15px;
+
+}
+.card{
+    margin-bottom: 50px;
+}
+.cards .card p{
+    width: 200px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.cards .card h5{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #2D314D;
+}
+.footer1{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 h4{
+color: white;
+font-weight: 100;
+
+}
+.footer1 div button{
+    margin-top: 20px;
+    background-color: #33D35E ;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer1 div p{
+    color: #ffffff5e;
+}
